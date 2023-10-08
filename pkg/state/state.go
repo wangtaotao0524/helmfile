@@ -206,7 +206,7 @@ type RepositorySpec struct {
 	Keyring         string `yaml:"keyring,omitempty"`
 	PassCredentials bool   `yaml:"passCredentials,omitempty"`
 	SkipTLSVerify   bool   `yaml:"skipTLSVerify,omitempty"`
-	PlainHTTP	bool   `yaml: "plainHttp,omitempty"`
+	PlainHTTP	bool   `yaml:"plainHttp,omitempty"`
 }
 
 type Inherit struct {
